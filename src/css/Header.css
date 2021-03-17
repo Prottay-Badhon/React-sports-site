@@ -1,0 +1,15 @@
+@media(max-width:767px){
+    #navDiv{
+        margin-top: -500px;
+        transition: 2s;
+        padding: 30px 0px 30px 20px;
+    }
+    #header button{
+        margin-left: 100px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-toggler{
+        margin-left: auto;
+    }
+}

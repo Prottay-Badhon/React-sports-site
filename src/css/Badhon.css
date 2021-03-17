@@ -1,0 +1,21 @@
+#videoSection{
+    background: rgb(241, 238, 238);
+}
+
+.slick-next, .slick-prev{
+    background-color: royalblue;
+    height: 30px;
+}
+.slick-prev:hover{
+    background-color: rgb(65, 225, 185);
+
+}
+
+.slick-next:hover{
+    background-color: rgb(65, 225, 185);
+}
+@media(max-width:767px){
+   .card{
+       width: 100%;
+    }
+}

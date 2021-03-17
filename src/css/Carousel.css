@@ -1,0 +1,12 @@
+@media(max-width:767px){
+    #carousel img{
+       max-height: 300px;
+    }
+    #carousel h3{
+        font-size: 25px;
+     }
+    #carousel{
+        transition:.5s;
+    }
+}
+

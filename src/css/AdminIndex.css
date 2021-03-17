@@ -1,0 +1,14 @@
+@media(max-width:768px){
+    #admin{
+        margin-top: -1500px;
+        transition: 2s;
+        
+    }
+    
+}
+@media(min-width:768px){
+    .content-wrapper{
+        margin-top: -400px;
+    }
+    
+}

@@ -1,0 +1,25 @@
+
+@media(min-width:768px){
+    #AdminHeader{
+        width: 240px;
+        height: 100%;
+    }
+    button{
+        display: none;
+    }
+    
+#AdminHeader{
+    margin-top: 100px;
+}
+}
+
+@media(max-width:768px){
+    #headerDiv{
+        margin-top: -500px;
+        transition: 2s;
+    }
+    
+#AdminHeader{
+    margin-top: 70px;
+}
+}

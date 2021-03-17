@@ -1,0 +1,23 @@
+@media(max-width:768px){
+   
+    #fktable img{
+        height: 80px;
+        width: 80px;
+    }
+    #fktable video{
+        height: 80px;
+        width: 80px;
+    }
+}
+
+@media(min-width:768px){
+   
+    #fktable img{
+        height: 200px;
+        width: 200px;
+    }
+    #fktable video{
+        height: 200px;
+        width: 200px;
+    }
+}
