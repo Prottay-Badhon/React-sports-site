@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-sports-site/static/css/main.2d0fd1fd.chunk.css",
-    "main.js": "/React-sports-site/static/js/main.799e7fb9.chunk.js",
-    "main.js.map": "/React-sports-site/static/js/main.799e7fb9.chunk.js.map",
+    "main.js": "/React-sports-site/static/js/main.761a6132.chunk.js",
+    "main.js.map": "/React-sports-site/static/js/main.761a6132.chunk.js.map",
     "runtime-main.js": "/React-sports-site/static/js/runtime-main.171cf37d.js",
     "runtime-main.js.map": "/React-sports-site/static/js/runtime-main.171cf37d.js.map",
     "static/js/2.51eb98fc.chunk.js": "/React-sports-site/static/js/2.51eb98fc.chunk.js",
@@ -13,12 +13,24 @@
     "static/css/main.2d0fd1fd.chunk.css.map": "/React-sports-site/static/css/main.2d0fd1fd.chunk.css.map",
     "static/js/2.51eb98fc.chunk.js.LICENSE.txt": "/React-sports-site/static/js/2.51eb98fc.chunk.js.LICENSE.txt",
     "static/media/AdminLTELogo.dc3925d0.png": "/React-sports-site/static/media/AdminLTELogo.dc3925d0.png",
-    "static/media/logo.6ce24c58.svg": "/React-sports-site/static/media/logo.6ce24c58.svg"
+    "static/media/Argentina.28c3548d.jpg": "/React-sports-site/static/media/Argentina.28c3548d.jpg",
+    "static/media/china.d6ad54d3.jpg": "/React-sports-site/static/media/china.d6ad54d3.jpg",
+    "static/media/cricket.2786f42d.jpg": "/React-sports-site/static/media/cricket.2786f42d.jpg",
+    "static/media/ind2.dc1e9c36.jpg": "/React-sports-site/static/media/ind2.dc1e9c36.jpg",
+    "static/media/logo.6ce24c58.svg": "/React-sports-site/static/media/logo.6ce24c58.svg",
+    "static/media/pic1.41948fe2.jpg": "/React-sports-site/static/media/pic1.41948fe2.jpg",
+    "static/media/pic12.f8e21dc7.jpg": "/React-sports-site/static/media/pic12.f8e21dc7.jpg",
+    "static/media/pic13.82a690f1.jpg": "/React-sports-site/static/media/pic13.82a690f1.jpg",
+    "static/media/pic2.48169ce8.jpg": "/React-sports-site/static/media/pic2.48169ce8.jpg",
+    "static/media/pic2.976775a6.jpg": "/React-sports-site/static/media/pic2.976775a6.jpg",
+    "static/media/pic3.097cee34.jpg": "/React-sports-site/static/media/pic3.097cee34.jpg",
+    "static/media/slide1.0a543a25.jpg": "/React-sports-site/static/media/slide1.0a543a25.jpg",
+    "static/media/slide2.a4bec0e1.jpg": "/React-sports-site/static/media/slide2.a4bec0e1.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.171cf37d.js",
     "static/js/2.51eb98fc.chunk.js",
     "static/css/main.2d0fd1fd.chunk.css",
-    "static/js/main.799e7fb9.chunk.js"
+    "static/js/main.761a6132.chunk.js"
   ]
 }
