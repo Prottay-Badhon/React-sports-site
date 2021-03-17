@@ -1,0 +1,13 @@
+#cardSection .card{
+	height: 500px;
+}
+
+#cardSection .card:hover{
+	background-color: rgb(255, 81, 0);
+	transition: .5s;
+	color: white;
+}
+
+#category .card{
+	height: 150px;
+}

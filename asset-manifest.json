@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Prottay-Badhon/React-sports-site/static/css/main.2d0fd1fd.chunk.css",
+    "main.js": "/Prottay-Badhon/React-sports-site/static/js/main.799e7fb9.chunk.js",
+    "main.js.map": "/Prottay-Badhon/React-sports-site/static/js/main.799e7fb9.chunk.js.map",
+    "runtime-main.js": "/Prottay-Badhon/React-sports-site/static/js/runtime-main.be8ba671.js",
+    "runtime-main.js.map": "/Prottay-Badhon/React-sports-site/static/js/runtime-main.be8ba671.js.map",
+    "static/js/2.51eb98fc.chunk.js": "/Prottay-Badhon/React-sports-site/static/js/2.51eb98fc.chunk.js",
+    "static/js/2.51eb98fc.chunk.js.map": "/Prottay-Badhon/React-sports-site/static/js/2.51eb98fc.chunk.js.map",
+    "static/js/3.96b2d333.chunk.js": "/Prottay-Badhon/React-sports-site/static/js/3.96b2d333.chunk.js",
+    "static/js/3.96b2d333.chunk.js.map": "/Prottay-Badhon/React-sports-site/static/js/3.96b2d333.chunk.js.map",
+    "index.html": "/Prottay-Badhon/React-sports-site/index.html",
+    "static/css/main.2d0fd1fd.chunk.css.map": "/Prottay-Badhon/React-sports-site/static/css/main.2d0fd1fd.chunk.css.map",
+    "static/js/2.51eb98fc.chunk.js.LICENSE.txt": "/Prottay-Badhon/React-sports-site/static/js/2.51eb98fc.chunk.js.LICENSE.txt",
+    "static/media/AdminLTELogo.dc3925d0.png": "/Prottay-Badhon/React-sports-site/static/media/AdminLTELogo.dc3925d0.png",
+    "static/media/logo.6ce24c58.svg": "/Prottay-Badhon/React-sports-site/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be8ba671.js",
+    "static/js/2.51eb98fc.chunk.js",
+    "static/css/main.2d0fd1fd.chunk.css",
+    "static/js/main.799e7fb9.chunk.js"
+  ]
+}
