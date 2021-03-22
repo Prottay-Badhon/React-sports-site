@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-sports-site/static/css/main.2d0fd1fd.chunk.css",
-    "main.js": "/React-sports-site/static/js/main.cf2f67b5.chunk.js",
-    "main.js.map": "/React-sports-site/static/js/main.cf2f67b5.chunk.js.map",
+    "main.js": "/React-sports-site/static/js/main.b4850361.chunk.js",
+    "main.js.map": "/React-sports-site/static/js/main.b4850361.chunk.js.map",
     "runtime-main.js": "/React-sports-site/static/js/runtime-main.171cf37d.js",
     "runtime-main.js.map": "/React-sports-site/static/js/runtime-main.171cf37d.js.map",
     "static/js/2.51eb98fc.chunk.js": "/React-sports-site/static/js/2.51eb98fc.chunk.js",
@@ -31,6 +31,6 @@
     "static/js/runtime-main.171cf37d.js",
     "static/js/2.51eb98fc.chunk.js",
     "static/css/main.2d0fd1fd.chunk.css",
-    "static/js/main.cf2f67b5.chunk.js"
+    "static/js/main.b4850361.chunk.js"
   ]
 }
