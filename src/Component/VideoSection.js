@@ -32,7 +32,7 @@ class VideoSection extends Component {
 			slidesPerRow: 1
 		  };
 
-        let path="http://localhost:8000/";
+        let path="https://react-sports-site-laravel.herokuapp.com/";
 		const news=this.state.news;
         const allNewsVideo=news.map((news,idx)=>{
 			if(news.news_video){

@@ -9,6 +9,20 @@ class AllNews extends Component {
         news:[]
     }
 
+    deleteNews=(id)=>{
+        axios.post('deleteNews'+id)
+        .then((response)=>{
+            let news=this.state.news;
+            for(var i=0;i<news.length;i++){
+               if( news[i].news_id==id){
+                    news.splice(i,1);
+                    this.setState({
+                        news:news
+                    })
+               }
+            }
+        })
+    }
 	componentDidMount(){
         axios.get('allNewsAdmin')
         .then( (response)=> {
@@ -21,7 +35,7 @@ class AllNews extends Component {
     
     
     render() {
-        let path="http://localhost:8000/";
+        let path="https://react-sports-site-laravel.herokuapp.com/";
         const news=this.state.news;
        
         const allNews=news.map((news,idx)=>{
@@ -47,7 +61,8 @@ class AllNews extends Component {
                        {news.publication_status}
                 <td>
                     <Link to={"/editNews"+news.news_id} class="btn btn-success btn-sm">Edit</Link>
-                    <Link to="/deleteNews" class="btn btn-danger btn-sm">delete</Link>
+                    <button onClick={this.deleteNews.bind(this,news.news_id)} class="btn btn-danger btn-sm">Delete</button>
+
                     
                 </td>
                

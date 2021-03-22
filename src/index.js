@@ -4,14 +4,19 @@ import './index.css';
 import App from './App';
 import MyRouter from './Component/MyRouter';
 import Header from './Component/Header';
+import {BrowserRouter} from "react-router-dom";
 
 
 import reportWebVitals from './reportWebVitals';
 import axios from "axios";
-axios.defaults.baseURL="http://localhost:8000/api/";
+axios.defaults.baseURL="https://react-sports-site-laravel.herokuapp.com/api/";
 ReactDOM.render(
   <React.StrictMode>
-    <MyRouter/>
+    <BrowserRouter>
+     <Header></Header>
+      <MyRouter></MyRouter>
+    </BrowserRouter>
+
   </React.StrictMode>,
   document.getElementById('root')
 );

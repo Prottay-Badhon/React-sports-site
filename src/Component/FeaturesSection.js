@@ -1,4 +1,9 @@
 import React, { Component } from 'react';
+import pic12 from "../image/footballPic/pic12.jpg"
+import pic13 from "../image/footballPic/pic13.jpg"
+
+import Argentina from "../image/footballPic/Argentina.jpg"
+import china from "../image/footballPic/china.jpg"
 
 class FeaturesSection extends Component {
     render() {
@@ -11,7 +16,7 @@ class FeaturesSection extends Component {
 		<div class="row">
 			<div class="col-lg-3">
 				<div class="card border-0">
-							<img src="image/footballPic/pic12.jpg" alt="" class="img-fluid"/>
+							<img src={pic12} alt="" class="img-fluid"/>
 							<div class="card-body">
 						<div class="card-title">
 						<h2 class="">FCB</h2>
@@ -23,7 +28,7 @@ class FeaturesSection extends Component {
 
 			<div class="col-lg-3">
 				<div class="card border-0">
-							<img src="image/footballPic/pic13.jpg" alt="" class="img-fluid"/>
+							<img src={pic13} alt="" class="img-fluid"/>
 							<div class="card-body">
 						<div class="card-title">
 						<h2 class="">Can Brasil win 2022 Quater World cup?</h2>
@@ -35,7 +40,7 @@ class FeaturesSection extends Component {
 
 			<div class="col-lg-3">
 				<div class="card border-0">
-							<img src="image/footballPic/Argentina.jpg" alt="" class="img-fluid"/>
+							<img src={Argentina} alt="" class="img-fluid"/>
 							<div class="card-body">
 						<div class="card-title">
 						<h2 class="">Arg Back to The form</h2>
@@ -47,7 +52,7 @@ class FeaturesSection extends Component {
 
 			<div class="col-lg-3">
 				<div class="card border-0">
-							<img src="image/footballPic/china.jpg" alt="" class="img-fluid"/>
+							<img src={china} alt="" class="img-fluid"/>
 							<div class="card-body">
 						<div class="card-title">
 						<h2 class="">China Football is growing </h2>

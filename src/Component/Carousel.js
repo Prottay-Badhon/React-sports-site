@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import Slider from 'react-slick';
 import "../css/Carousel.css"
+import slider1 from "../image/footballPic/slide1.jpg"
+import slider2 from "../image/footballPic/slide2.jpg"
+import cricket from "../image/cricket.jpg"
 class Carousel extends Component {
   state={
     click:this.props.badhon
@@ -20,7 +23,7 @@ class Carousel extends Component {
           <Slider {...settings}>
           <div>
               <div class="">
-              <img src="image/footballPic/slide1.jpg" alt="" class="img-fluid" 
+              <img src={slider1} alt="" class="img-fluid" 
               style={{width:"100%",height:"600px"}}/>
 
               <div class="carousel-caption mb-5 pb-5">
@@ -36,7 +39,7 @@ class Carousel extends Component {
          
           <div>
               <div class="">
-              <img src="image/cricket.jpg" alt="" class="img-fluid" 
+              <img src={cricket} alt="" class="img-fluid" 
               style={{width:"100%",height:"600px"}}/>
 
               <div class="carousel-caption mb-5 pb-5">
@@ -52,7 +55,7 @@ class Carousel extends Component {
          
           <div>
               <div class="">
-              <img src="image/footballPic/slide2.jpg" alt="" class="img-fluid" 
+              <img src={slider2} alt="" class="img-fluid" 
               style={{width:"100%",height:"600px"}}/>
 
               <div class="carousel-caption mb-5 pb-5">

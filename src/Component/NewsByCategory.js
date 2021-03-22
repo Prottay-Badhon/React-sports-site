@@ -18,7 +18,7 @@ class NewsByCategory extends Component {
         })
     }
     render() {
-        let path="http://localhost:8000/";
+        let path="https://react-sports-site-laravel.herokuapp.com/";
         const category=this.state.cat;
         const allCategory=category.map((category,idx)=>{
                 return(

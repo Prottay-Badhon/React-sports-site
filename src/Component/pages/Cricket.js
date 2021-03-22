@@ -64,7 +64,7 @@ class Cricket extends Component {
   </ul>
 </nav>
    </section>  
-   <Footer></Footer>
+   <Footer> </Footer>
             </>
         );
     }

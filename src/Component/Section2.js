@@ -17,7 +17,7 @@ class Section2 extends Component {
 	}
 	
     render() {
-        let path="http://localhost:8000/";
+        let path="https://react-sports-site-laravel.herokuapp.com/";
 		const news=this.state.news;
         const allNews=news.map((news,idx)=>{
 				return(

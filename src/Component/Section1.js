@@ -1,4 +1,12 @@
 import React, { Component } from 'react';
+import pic1 from "../image/footballPic/pic1.jpg"
+import pic2 from "../image/footballPic/pic2.jpg"
+import pic3 from "../image/footballPic/pic3.jpg"
+import ind2 from "../image/cricketPic/ind2.jpg"
+import cricPic2 from "../image/cricketPic/pic2.jpg"
+import cricPic4 from "../image/cricketPic/pic4.jpg"
+
+
 
 class Section1 extends Component {
     render() {
@@ -9,7 +17,7 @@ class Section1 extends Component {
 		<div class="row">
 			<div class="col-lg-8">
 				<div class="card">
-					<img src="image/footballPic/pic1.jpg" alt="" class="img-fluid"/>
+					<img src={pic1} alt="" class="img-fluid"/>
 					<div class="card-body">
 					<div class="card-title">Manchester United 3:1 Chelsea</div>
 
@@ -27,7 +35,7 @@ class Section1 extends Component {
 				<div class="row">
 					<div class="col-lg-6">
 					<div class="card">
-					<img src="image/footballPic/pic2.jpg" alt="" class="img-fluid"/>
+					<img src={pic2} alt="" class="img-fluid"/>
 					<div class="card-body">
 					<div class="card-title">Juventus Goal 2 vs Napoli </div>
 						Without Ronaldo They win vs Napoli by two goals and racch to the 1st possition of the point table in SRIA.Cristiano Ronaldo is off beacuse he tested possitive in COVID-19
@@ -39,7 +47,7 @@ class Section1 extends Component {
 
 					<div class="col-lg-6">
 						<div class="card">
-					<img src="image/footballPic/pic3.jpg" alt="" class="img-fluid"/>
+					<img src={pic3} alt="" class="img-fluid"/>
 					<div class="card-body">
 					<div class="card-title">Inter Milan 2:1 Ac Milan </div>
 					Inter Milan Won by 2-1 goals they strugled in first half but back in second half with goal of Acher Banner And reach to 3rd possion overtake AC Millan
@@ -125,7 +133,7 @@ class Section1 extends Component {
 		<div class="row mt-5">
 			<div class="col-lg-8">
 				<div class="card">
-					<img src="image/cricketPic/ind2.jpg" style={{height: "400px"}} alt="" class="img-fluid"/>
+					<img src={ind2} style={{height: "400px"}} alt="" class="img-fluid"/>
 					<div class="card-body">
 					<div class="card-title">First 11 of India VS Aus Tommorow AT 2.30PM AT Eden Garden</div>
 						India Looks for win beacuse they have already lost 1 game of 3 match ODI series.If they loss tommorow they will lost the series .Also 3 T20 games will be played vs AUS
@@ -136,7 +144,7 @@ class Section1 extends Component {
 				<div class="row">
 					<div class="col-lg-6">
 					<div class="card">
-					<img src="image/cricketPic/pic4.jpg" alt="" class="img-fluid"/>
+					<img src={cricPic4} alt="" class="img-fluid"/>
 					<div class="card-body">
 					<div class="card-title">Bad Day for England</div>
 						ENG vs NZ Test 1 day 2 is bad day Because they can not run more and fall of 7 wickets already will be messarable condition for English Man.None of them can not get more run With out Captain Eion Morgan he scored 74 by 123 balls.
@@ -148,7 +156,7 @@ class Section1 extends Component {
 
 					<div class="col-lg-6">
 						<div class="card">
-					<img src="image/cricketPic/pic2.jpg" alt="" class="img-fluid"/>
+					<img src={cricPic2} alt="" class="img-fluid"/>
 					<div class="card-body">
 					<div class="card-title">Bangladesh Tigers Caught The England Lion</div>
 						What a match ! What a day for Bangladesh Cricket history.They knocked out England from cricket world cup 2015.Ruble Hossain bowled very good taken 4 wickets

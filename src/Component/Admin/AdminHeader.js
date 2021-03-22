@@ -33,9 +33,7 @@ class AdminHeader extends Component {
               <li class="nav-item p-2">
                   <p><Link to="/addCategory">Add Category</Link></p>
               </li>
-              <li class="nav-item p-2">
-                  <p><Link to="/check">Check</Link></p>
-              </li>
+             
               <li class="nav-item p-2">
                 
                   <p><Link to="/allCategory">All Category</Link></p>
