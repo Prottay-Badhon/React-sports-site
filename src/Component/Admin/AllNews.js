@@ -10,7 +10,7 @@ class AllNews extends Component {
     }
 
     deleteNews=(id)=>{
-        axios.post('deleteNews'+id)
+        axios.get('deleteNews'+id)
         .then((response)=>{
             let news=this.state.news;
             for(var i=0;i<news.length;i++){
@@ -22,6 +22,9 @@ class AllNews extends Component {
                }
             }
         })
+        .catch( (error)=> {
+            console.log(error);
+        });
     }
 	componentDidMount(){
         axios.get('allNewsAdmin')
