@@ -24,7 +24,7 @@ class Section2 extends Component {
 				<div class="col-lg-4">
 				<Link to={`/readMore${news.news_id}`}>
 				<div class="card">
-					<img src={path+news.news_pic} alt="" class="img-fluid"/>
+					<img src={path+news.news_pic} alt="" class="img-fluid" style={{height:"300px"}}/>
 					<div class="card-body">
 						<div class="card-title">
 							{news.headlines}
