@@ -10,16 +10,11 @@ import {BrowserRouter} from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
 import axios from "axios";
 axios.defaults.baseURL="https://react-sports-site-laravel.herokuapp.com/api/";
-ReactDOM.render(
-  <React.StrictMode>
-    <BrowserRouter>
-     <Header></Header>
-      <MyRouter></MyRouter>
-    </BrowserRouter>
+var myRoute =(
+  <MyRouter></MyRouter>
 
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+)
+ReactDOM.render(myRoute,document.getElementById('root'));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
