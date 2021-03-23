@@ -47,7 +47,7 @@ class Register extends Component {
     }
     render() {
        if(localStorage.getItem('token')!='undefined'){
-           return <Redirect to="/profile"></Redirect>
+          
        }
         return (
             <>
